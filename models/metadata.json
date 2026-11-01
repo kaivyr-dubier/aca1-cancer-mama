@@ -1,0 +1,410 @@
+{
+  "modelo": "SVM (RBF)",
+  "parametros": {
+    "C": 5,
+    "class_weight": "None",
+    "gamma": "scale"
+  },
+  "features": [
+    "mean radius",
+    "mean texture",
+    "mean perimeter",
+    "mean area",
+    "mean smoothness",
+    "mean compactness",
+    "mean concavity",
+    "mean concave points",
+    "mean symmetry",
+    "mean fractal dimension",
+    "radius error",
+    "texture error",
+    "perimeter error",
+    "area error",
+    "smoothness error",
+    "compactness error",
+    "concavity error",
+    "concave points error",
+    "symmetry error",
+    "fractal dimension error",
+    "worst radius",
+    "worst texture",
+    "worst perimeter",
+    "worst area",
+    "worst smoothness",
+    "worst compactness",
+    "worst concavity",
+    "worst concave points",
+    "worst symmetry",
+    "worst fractal dimension"
+  ],
+  "rangos": {
+    "mean radius": {
+      "min": 6.981,
+      "max": 28.11,
+      "mediana": 13.37,
+      "mediana_benigno": 12.2,
+      "mediana_maligno": 17.325000000000003
+    },
+    "mean texture": {
+      "min": 9.71,
+      "max": 39.28,
+      "mediana": 18.84,
+      "mediana_benigno": 17.39,
+      "mediana_maligno": 21.46
+    },
+    "mean perimeter": {
+      "min": 43.79,
+      "max": 188.5,
+      "mediana": 86.24,
+      "mediana_benigno": 78.18,
+      "mediana_maligno": 114.2
+    },
+    "mean area": {
+      "min": 143.5,
+      "max": 2501.0,
+      "mediana": 551.1,
+      "mediana_benigno": 458.4,
+      "mediana_maligno": 932.0
+    },
+    "mean smoothness": {
+      "min": 0.05263,
+      "max": 0.1634,
+      "mediana": 0.09587,
+      "mediana_benigno": 0.09076,
+      "mediana_maligno": 0.1022
+    },
+    "mean compactness": {
+      "min": 0.01938,
+      "max": 0.3454,
+      "mediana": 0.09263,
+      "mediana_benigno": 0.07529,
+      "mediana_maligno": 0.13235
+    },
+    "mean concavity": {
+      "min": 0.0,
+      "max": 0.4268,
+      "mediana": 0.06154,
+      "mediana_benigno": 0.03709,
+      "mediana_maligno": 0.15134999999999998
+    },
+    "mean concave points": {
+      "min": 0.0,
+      "max": 0.2012,
+      "mediana": 0.0335,
+      "mediana_benigno": 0.02344,
+      "mediana_maligno": 0.08628
+    },
+    "mean symmetry": {
+      "min": 0.106,
+      "max": 0.304,
+      "mediana": 0.1792,
+      "mediana_benigno": 0.1714,
+      "mediana_maligno": 0.1899
+    },
+    "mean fractal dimension": {
+      "min": 0.04996,
+      "max": 0.09744,
+      "mediana": 0.06154,
+      "mediana_benigno": 0.06154,
+      "mediana_maligno": 0.061575000000000005
+    },
+    "radius error": {
+      "min": 0.1115,
+      "max": 2.873,
+      "mediana": 0.3242,
+      "mediana_benigno": 0.2575,
+      "mediana_maligno": 0.5472
+    },
+    "texture error": {
+      "min": 0.3602,
+      "max": 4.885,
+      "mediana": 1.108,
+      "mediana_benigno": 1.108,
+      "mediana_maligno": 1.1025
+    },
+    "perimeter error": {
+      "min": 0.757,
+      "max": 21.98,
+      "mediana": 2.287,
+      "mediana_benigno": 1.851,
+      "mediana_maligno": 3.6795
+    },
+    "area error": {
+      "min": 6.802,
+      "max": 542.2,
+      "mediana": 24.53,
+      "mediana_benigno": 19.63,
+      "mediana_maligno": 58.455
+    },
+    "smoothness error": {
+      "min": 0.001713,
+      "max": 0.03113,
+      "mediana": 0.00638,
+      "mediana_benigno": 0.00653,
+      "mediana_maligno": 0.0062095
+    },
+    "compactness error": {
+      "min": 0.002252,
+      "max": 0.1354,
+      "mediana": 0.02045,
+      "mediana_benigno": 0.01631,
+      "mediana_maligno": 0.028589999999999997
+    },
+    "concavity error": {
+      "min": 0.0,
+      "max": 0.396,
+      "mediana": 0.02589,
+      "mediana_benigno": 0.0184,
+      "mediana_maligno": 0.037125000000000005
+    },
+    "concave points error": {
+      "min": 0.0,
+      "max": 0.05279,
+      "mediana": 0.01093,
+      "mediana_benigno": 0.009061,
+      "mediana_maligno": 0.014205
+    },
+    "symmetry error": {
+      "min": 0.007882,
+      "max": 0.07895,
+      "mediana": 0.01873,
+      "mediana_benigno": 0.01909,
+      "mediana_maligno": 0.0177
+    },
+    "fractal dimension error": {
+      "min": 0.0008948,
+      "max": 0.02984,
+      "mediana": 0.003187,
+      "mediana_benigno": 0.002808,
+      "mediana_maligno": 0.0037394999999999998
+    },
+    "worst radius": {
+      "min": 7.93,
+      "max": 36.04,
+      "mediana": 14.97,
+      "mediana_benigno": 13.35,
+      "mediana_maligno": 20.59
+    },
+    "worst texture": {
+      "min": 12.02,
+      "max": 49.54,
+      "mediana": 25.41,
+      "mediana_benigno": 22.82,
+      "mediana_maligno": 28.945
+    },
+    "worst perimeter": {
+      "min": 50.41,
+      "max": 251.2,
+      "mediana": 97.66,
+      "mediana_benigno": 86.92,
+      "mediana_maligno": 138.0
+    },
+    "worst area": {
+      "min": 185.2,
+      "max": 4254.0,
+      "mediana": 686.5,
+      "mediana_benigno": 547.4,
+      "mediana_maligno": 1303.0
+    },
+    "worst smoothness": {
+      "min": 0.07117,
+      "max": 0.2226,
+      "mediana": 0.1313,
+      "mediana_benigno": 0.1254,
+      "mediana_maligno": 0.14345
+    },
+    "worst compactness": {
+      "min": 0.02729,
+      "max": 1.058,
+      "mediana": 0.2119,
+      "mediana_benigno": 0.1698,
+      "mediana_maligno": 0.35635
+    },
+    "worst concavity": {
+      "min": 0.0,
+      "max": 1.252,
+      "mediana": 0.2267,
+      "mediana_benigno": 0.1412,
+      "mediana_maligno": 0.4049
+    },
+    "worst concave points": {
+      "min": 0.0,
+      "max": 0.291,
+      "mediana": 0.09993,
+      "mediana_benigno": 0.07431,
+      "mediana_maligno": 0.182
+    },
+    "worst symmetry": {
+      "min": 0.1565,
+      "max": 0.6638,
+      "mediana": 0.2822,
+      "mediana_benigno": 0.2687,
+      "mediana_maligno": 0.3103
+    },
+    "worst fractal dimension": {
+      "min": 0.05504,
+      "max": 0.2075,
+      "mediana": 0.08004,
+      "mediana_benigno": 0.07712,
+      "mediana_maligno": 0.08760000000000001
+    }
+  },
+  "metricas_test": {
+    "Accuracy": 0.9737,
+    "Precision": 1.0,
+    "Recall": 0.9286,
+    "F1-score": 0.963,
+    "ROC-AUC": 0.9947,
+    "Especificidad": 1.0
+  },
+  "metricas_cv": {
+    "Regresión Logística": {
+      "accuracy": 0.9736,
+      "precision": 0.9771,
+      "recall": 0.9529,
+      "f1": 0.964,
+      "roc_auc": 0.9958
+    },
+    "SVM (RBF)": {
+      "accuracy": 0.9714,
+      "precision": 0.9769,
+      "recall": 0.9471,
+      "f1": 0.961,
+      "roc_auc": 0.9949
+    },
+    "Random Forest": {
+      "accuracy": 0.9648,
+      "precision": 0.9641,
+      "recall": 0.9412,
+      "f1": 0.9519,
+      "roc_auc": 0.9889
+    },
+    "KNN": {
+      "accuracy": 0.9648,
+      "precision": 0.9875,
+      "recall": 0.9176,
+      "f1": 0.951,
+      "roc_auc": 0.9871
+    },
+    "Naive Bayes": {
+      "accuracy": 0.9385,
+      "precision": 0.9247,
+      "recall": 0.9118,
+      "f1": 0.917,
+      "roc_auc": 0.987
+    },
+    "Árbol de Decisión": {
+      "accuracy": 0.9231,
+      "precision": 0.8996,
+      "recall": 0.8941,
+      "f1": 0.8962,
+      "roc_auc": 0.9172
+    }
+  },
+  "matriz_confusion": {
+    "tn": 72,
+    "fp": 0,
+    "fn": 3,
+    "tp": 39
+  },
+  "roc": {
+    "fpr": [
+      0.0,
+      0.0,
+      0.0,
+      0.0278,
+      0.0278,
+      0.1944,
+      0.1944,
+      1.0
+    ],
+    "tpr": [
+      0.0,
+      0.0238,
+      0.9524,
+      0.9524,
+      0.9762,
+      0.9762,
+      1.0,
+      1.0
+    ]
+  },
+  "umbral": [
+    {
+      "Umbral": 0.2,
+      "Recall": 0.9762,
+      "Precision": 0.9111,
+      "F1": 0.9425,
+      "Falsos negativos": 1,
+      "Falsos positivos": 4
+    },
+    {
+      "Umbral": 0.3,
+      "Recall": 0.9762,
+      "Precision": 0.9535,
+      "F1": 0.9647,
+      "Falsos negativos": 1,
+      "Falsos positivos": 2
+    },
+    {
+      "Umbral": 0.4,
+      "Recall": 0.9524,
+      "Precision": 1.0,
+      "F1": 0.9756,
+      "Falsos negativos": 2,
+      "Falsos positivos": 0
+    },
+    {
+      "Umbral": 0.5,
+      "Recall": 0.9286,
+      "Precision": 1.0,
+      "F1": 0.963,
+      "Falsos negativos": 3,
+      "Falsos positivos": 0
+    },
+    {
+      "Umbral": 0.6,
+      "Recall": 0.9286,
+      "Precision": 1.0,
+      "F1": 0.963,
+      "Falsos negativos": 3,
+      "Falsos positivos": 0
+    }
+  ],
+  "importancias": {
+    "worst texture": 0.03861,
+    "worst concavity": 0.02015,
+    "mean concavity": 0.00603,
+    "worst smoothness": 0.0049,
+    "mean texture": 0.00456,
+    "worst radius": 0.00419,
+    "worst area": 0.00395,
+    "worst concave points": 0.00294,
+    "worst perimeter": 0.00222,
+    "worst compactness": 0.0013,
+    "smoothness error": 0.00126,
+    "mean concave points": 0.00087,
+    "symmetry error": 0.00078,
+    "fractal dimension error": 0.00057,
+    "mean symmetry": 0.00039,
+    "mean fractal dimension": 0.00039,
+    "worst symmetry": 0.00031,
+    "concavity error": 5e-05,
+    "mean compactness": 0.0,
+    "worst fractal dimension": 0.0,
+    "mean smoothness": -0.00013,
+    "concave points error": -0.00042,
+    "mean radius": -0.00211,
+    "mean area": -0.00214,
+    "radius error": -0.00234,
+    "compactness error": -0.00251,
+    "mean perimeter": -0.00253,
+    "area error": -0.00271,
+    "texture error": -0.00361,
+    "perimeter error": -0.00472
+  },
+  "n_train": 455,
+  "n_test": 114,
+  "sklearn_version": "1.9.1",
+  "random_state": 42
+}
